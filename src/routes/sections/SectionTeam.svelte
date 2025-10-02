@@ -22,7 +22,6 @@
 			description:glosary.section_5.team_description_1,
 			image:teamChemi,
 			name:"Chemi Martínez",
-			instagram:"https://www.instagram.com/chemimartinez10/profilecard/?igsh=MWFnbHk2ZjN5ZWxtZw==",
 			linkedin:"https://www.linkedin.com/in/chemi-martinez-ff9616/",
 			github:"https://github.com/chemimartinez10",
 		},
@@ -31,7 +30,6 @@
 			description:glosary.section_5.team_description_2,
 			image:teamDaniel,
 			name:"Daniel Campos",
-			instagram:"https://www.instagram.com/mynameiscampos",
 			linkedin:"https://www.linkedin.com/in/daniel-campos-a2993a11a",
 		},
 		{
@@ -47,8 +45,6 @@
 			description:glosary.section_5.team_description_4,
 			image:teamLuis,
 			name:"Luis Vásquez",
-			instagram:"https://www.instagram.com/vasqale?igsh=Z2JmbmFlcXU0M3lj",
-			linkedin:"https://www.linkedin.com/in/vasqale/",
 			github:"https://github.com/DonPasticho",
 		},
 		{
@@ -56,7 +52,6 @@
 			description:glosary.section_5.team_description_5,
 			image:teamManuel,
 			name:"Manuel Farias",
-			instagram:"https://www.instagram.com/manuel.farias.m?igsh=MXF1YjV2cjNjdTYwdw==",
 			linkedin:"https://www.linkedin.com/in/manuel-farias-8402a1251/",
 			github:"https://github.com/manuelrrk",
 		},
