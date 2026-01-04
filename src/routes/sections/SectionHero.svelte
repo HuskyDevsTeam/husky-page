@@ -14,7 +14,7 @@
 	})
 </script>
 
-<section id="hero" class="bg-[url('/images/section_hero_background.jpeg')] bg-bottom md:bg-center bg-cover" >
+<section id="hero" class="bg-[url('/images/section_hero_background.webp')] bg-bottom md:bg-center bg-cover" >
 	<div class="max-w-[1512px] w-screen relative flex justify-center items-center bg-[var(--color-mask-primary)] overflow-hidden">
 		<div class="flex flex-col xl:flex-row xl:items-center h-full w-full max-w-[1288px] z-10 pt-[100px]">
 			<article class="flex flex-col gap-10 items-center md:items-start px-5 md:px-8 md:max-w-[770px]">

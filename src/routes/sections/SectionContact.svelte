@@ -3,7 +3,7 @@
 	import { getContext } from 'svelte';
 	import { LogoWhatsapp } from 'svelte-ionicons'
 	import huskyCall from '$lib/images/husky_call.webp'
-	import videoBanner from '$lib/videos/contact_banner_video.mp4'
+	import videoBanner from '$lib/videos/contact_banner_video.webm'
 
 	let glosary = dict["en"]
 
