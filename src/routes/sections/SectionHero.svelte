@@ -2,9 +2,9 @@
 	import { dict } from '$lib/utils/dict';
 	import { getContext } from 'svelte';
 	import { LogoWhatsapp } from 'svelte-ionicons'
-	import personBanner from '$lib/images/person_banner_1.png'
-	import personBannerMd from '$lib/images/person_banner_md.png'
-	import personBannerSm from '$lib/images/person_banner_sm.png'
+	import personBanner from '$lib/images/person_banner_1.webp'
+	import personBannerMd from '$lib/images/person_banner_md.webp'
+	import personBannerSm from '$lib/images/person_banner_sm.webp'
 	let glosary = dict["en"]
 
 	/** @type {import('$lib/utils/types').DataContext} */

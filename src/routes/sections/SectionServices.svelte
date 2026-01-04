@@ -2,8 +2,8 @@
 	import { dict } from '$lib/utils/dict';
 	import { getContext } from 'svelte';
 	import { SchoolOutline, DesktopOutline, PhonePortraitOutline, Star, StarHalfOutline } from 'svelte-ionicons'
-	import huskySm from '$lib/images/husky_sm.png'
-	import huskyMd from '$lib/images/husky_md.png'
+	import huskySm from '$lib/images/husky_sm.webp'
+	import huskyMd from '$lib/images/husky_md.webp'
 
 	let glosary = dict["en"]
 

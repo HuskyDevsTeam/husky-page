@@ -2,8 +2,8 @@
 	import { dict } from '$lib/utils/dict';
 	import { getContext } from 'svelte';
 	import { LogoInstagram, LogoLinkedin, LogoGithub } from 'svelte-ionicons'
-	import techMd from '$lib/images/tech_md.png'
-	import techSm from '$lib/images/tech_sm.png'
+	import techMd from '$lib/images/tech_md.webp'
+	import techSm from '$lib/images/tech_sm.webp'
 
 	let glosary = dict["en"]
 

@@ -2,11 +2,11 @@
 	import { dict } from '$lib/utils/dict';
 	import { getContext } from 'svelte';
 	import { LogoInstagram, LogoLinkedin, LogoGithub } from 'svelte-ionicons'
-	import teamChemi from '$lib/images/team_chemi.jpg'
-	import teamLuis from '$lib/images/team_luis.jpg'
-	import teamManuel from '$lib/images/team_manuel.jpg'
-	import teamJavier from '$lib/images/team_javier.jpg'
-	import teamDaniel from '$lib/images/team_daniel.jpg'
+	import teamChemi from '$lib/images/team_chemi.webp'
+	import teamLuis from '$lib/images/team_luis.webp'
+	import teamManuel from '$lib/images/team_manuel.webp'
+	import teamJavier from '$lib/images/team_javier.webp'
+	import teamDaniel from '$lib/images/team_daniel.webp'
 
 	let glosary = dict["en"]
 

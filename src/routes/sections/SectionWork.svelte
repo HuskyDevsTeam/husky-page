@@ -1,16 +1,16 @@
 <script>
 	import { dict } from '$lib/utils/dict';
 	import { getContext } from 'svelte';
-	import work00 from '$lib/images/work_00.png'
-	import work01 from '$lib/images/work_01.png'
-	import work02 from '$lib/images/work_02.png'
-	import work03 from '$lib/images/work_03.png'
-	import work04 from '$lib/images/work_04.png'
-	import work05 from '$lib/images/work_05.jpg'
-	import work06 from '$lib/images/work_06.png'
-	import work07 from '$lib/images/work_07.png'
-	import work08 from '$lib/images/work_08.png'
-	import work09 from '$lib/images/work_09.png'
+	import work00 from '$lib/images/work_00.webp'
+	import work01 from '$lib/images/work_01.webp'
+	import work02 from '$lib/images/work_02.webp'
+	import work03 from '$lib/images/work_03.webp'
+	import work04 from '$lib/images/work_04.webp'
+	import work05 from '$lib/images/work_05.webp'
+	import work06 from '$lib/images/work_06.webp'
+	import work07 from '$lib/images/work_07.webp'
+	import work08 from '$lib/images/work_08.webp'
+	import work09 from '$lib/images/work_09.webp'
 
 	let glosary = dict["en"]
 	let open = false
