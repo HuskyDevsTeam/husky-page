@@ -3,6 +3,7 @@
 	import { getContext } from 'svelte';
 	import { LogoInstagram, LogoLinkedin, LogoGithub } from 'svelte-ionicons'
 	import teamChemi from '$lib/images/team_chemi.webp'
+	import teamAlfredo from '$lib/images/team_alfredo.webp'
 	import teamLuis from '$lib/images/team_luis.webp'
 	import teamManuel from '$lib/images/team_manuel.webp'
 	import teamJavier from '$lib/images/team_javier.webp'
@@ -17,6 +18,13 @@
 	})
 
 	$: list = [
+		{
+			title:glosary.section_5.team_title_0,
+			description:glosary.section_5.team_description_0,
+			image:teamAlfredo,
+			name:"Alfredo Requena",
+			github:"https://github.com/alfrejos",
+		},
 		{
 			title:glosary.section_5.team_title_1,
 			description:glosary.section_5.team_description_1,
