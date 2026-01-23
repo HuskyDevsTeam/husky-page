@@ -1,24 +1,21 @@
-# Usa la imagen oficial de Node 20
-FROM node:20
+# Usa la imagen oficial de Bun
+FROM oven/bun:1
 
 # Establece el directorio de trabajo
 WORKDIR /app
 
-# Copia los archivos de configuración de npm
-COPY package*.json ./
+# Copia el manifiesto
+COPY package.json ./
 
 # Instala las dependencias
-RUN npm install
+RUN bun install
 
 # Copia el resto de los archivos de la aplicación
 COPY . .
 
-# Construye la aplicación (necesario para ejecutar `node build` en producción)
-RUN npm run build
-
 # Expone el puerto en el que la aplicación se ejecutará
 EXPOSE 5173
-EXPOSE 3000
 
 # Comando para iniciar la aplicación
-CMD ["sh", "-c", "if [ \"$NODE_ENV\" = \"production\" ]; then node build; else npm run dev; fi"]
+# Nota: este Dockerfile está pensado para desarrollo (Vite dev server)
+CMD ["sh", "-c", "bun run dev -- --host 0.0.0.0 --port ${SERVER_PORT:-5173}"]

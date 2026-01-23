@@ -3,10 +3,11 @@
 	"version": "0.0.1",
 	"homepage": "https://huskydevs.com",
 	"private": true,
+	"packageManager": "bun@1",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "svelte-kit sync && vite build",
-		"preview": "node build",
+		"preview": "bun ./build/index.js",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
 		"lint": "prettier --check . && eslint .",
