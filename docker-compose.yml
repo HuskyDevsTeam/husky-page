@@ -11,6 +11,8 @@ services:
     environment:
       - NODE_ENV=${NODE_ENV}
       - SERVER_PORT=${SERVER_PORT}
+      - PORT=${SERVER_PORT}
+      - HOST=0.0.0.0
     networks:
       - husky
 networks:

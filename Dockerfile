@@ -13,11 +13,12 @@ RUN npm install
 # Copia el resto de los archivos de la aplicación
 COPY . .
 
-# Construye la aplicación para producción
-RUN if [ "$NODE_ENV" = "production" ]; then npm run build; fi
+# Construye la aplicación (necesario para ejecutar `node build` en producción)
+RUN npm run build
 
 # Expone el puerto en el que la aplicación se ejecutará
 EXPOSE 5173
+EXPOSE 3000
 
 # Comando para iniciar la aplicación
-CMD ["npm", "run", "dev"]
+CMD ["sh", "-c", "if [ \"$NODE_ENV\" = \"production\" ]; then node build; else npm run dev; fi"]

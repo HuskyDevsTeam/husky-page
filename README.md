@@ -38,4 +38,23 @@ npm run build
 
 You can preview the production build with `npm run preview`.
 
+## Docker (producción)
+
+Este proyecto expone un endpoint para quejas/bounces en `/bounces` (GET/POST) que responde `200` con el texto `su suscripcion ha cesado`.
+
+### Levantar con Docker Compose
+
+```bash
+docker compose -f docker-compose.prod.yml up --build -d
+```
+
+Queda escuchando en `http://localhost:3000`.
+
+### Probar el endpoint
+
+```bash
+curl -i http://localhost:3000/bounces
+curl -i -X POST http://localhost:3000/bounces
+```
+
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
