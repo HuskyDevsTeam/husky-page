@@ -10,10 +10,18 @@ RUN npm ci
 FROM node:20-alpine AS build
 WORKDIR /app
 
+# Reduce riesgo de OOM en builders con poca RAM
+ENV NODE_OPTIONS=--max_old_space_size=1536
+
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 
-RUN npm run build
+RUN echo "==> svelte-kit sync" \
+	&& npx svelte-kit sync
+
+RUN echo "==> vite build" \
+	&& npx vite build --logLevel info \
+	&& echo "==> build done"
 
 
 FROM node:20-alpine AS runner
