@@ -1,7 +1,6 @@
 <script>
 	import { dict } from '$lib/utils/dict';
 	import { getContext } from 'svelte';
-	import work00 from '$lib/images/work_00.webp'
 	import work02 from '$lib/images/work_02.webp'
 	import work03 from '$lib/images/work_03.webp'
 	import work04 from '$lib/images/work_04.webp'
@@ -24,13 +23,6 @@
 	}
 
 	$: list = [
-		{
-			title:glosary.section_1.card_title_0,
-			description:glosary.section_1.card_description_0,
-			image:work00,
-			live_demo:"https://rifas.huskydevs.com/",
-			github_repo:"",
-		},
 		{
 			title:glosary.section_1.card_title_2,
 			description:glosary.section_1.card_description_2,
