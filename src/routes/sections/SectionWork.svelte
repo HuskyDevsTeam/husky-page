@@ -2,7 +2,6 @@
 	import { dict } from '$lib/utils/dict';
 	import { getContext } from 'svelte';
 	import work02 from '$lib/images/work_02.webp'
-	import work03 from '$lib/images/work_03.webp'
 	import work04 from '$lib/images/work_04.webp'
 	import work05 from '$lib/images/work_05.webp'
 	import work06 from '$lib/images/work_06.webp'
@@ -28,13 +27,6 @@
 			description:glosary.section_1.card_description_2,
 			image:work02,
 			live_demo:"https://russafortuna.com/",
-			github_repo:"",
-		},
-		{
-			title:glosary.section_1.card_title_3,
-			description:glosary.section_1.card_description_3,
-			image:work03,
-			live_demo:"https://ganaconelguerrero.com/",
 			github_repo:"",
 		},
 		{
